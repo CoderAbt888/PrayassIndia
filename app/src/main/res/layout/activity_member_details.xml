@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/memberdetails"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prayas"
+    tools:context=".MemberDetails">
+
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Volunteer Name"
+
+        />
+
+    <EditText
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-53dp"
+
+        android:hint="Branch" />
+
+
+    <EditText
+        android:id="@+id/rollno"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-118dp"
+
+        android:hint="Rollno"
+        android:onClick="changevisiblity" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-232dp"
+
+        android:hint="Subject" />
+
+    <EditText
+        android:id="@+id/daysalloted"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-321dp"
+
+        android:hint="day alloted" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rollno"
+        android:layout_alignBottom="@+id/rollno"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginBottom="-291dp"
+        android:onClick="changevisiblity"
+        android:text="ENTER" />
+
+
+</RelativeLayout>

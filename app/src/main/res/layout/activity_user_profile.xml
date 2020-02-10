@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prayas"
+    tools:context=".UserProfile">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter roll no"
+        android:id="@+id/Enterroll"
+    ></EditText>
+
+    <Button
+        android:id="@+id/buton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Enterroll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-305dp"
+        android:alpha=".80"
+        android:onClick="open"
+        android:text="Enter"></Button>
+
+    <Button
+        android:id="@+id/pressagain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Enterroll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-305dp"
+        android:alpha=".80"
+        android:onClick="pressagain"
+        android:text="Touch Again"
+        android:visibility="invisible"></Button>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/design_default_color_primary"
+        android:textAlignment="center"
+        android:textSize="30dp"
+
+        android:layout_marginTop="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/days"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-49dp"
+        android:alpha=".80"
+        android:textColor="@color/textbody4"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/branch"
+        android:layout_width="300dp"
+        android:textColor="@color/textbody4"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-97dp"></TextView>
+
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="300dp"
+        android:textColor="@color/textbody4"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-146dp"></TextView>
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textbody4"
+        android:layout_alignBottom="@+id/name"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-198dp"></TextView>
+
+
+</RelativeLayout>
